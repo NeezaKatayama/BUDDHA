@@ -3,18 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37377A1B23A0F00E006AE61A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37377A1923A0F00D006AE61A /* Post.swift */; };
+		37377A1D23A0F0BD006AE61A /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37377A1C23A0F0BD006AE61A /* TimelineViewController.swift */; };
+		37377A1F23A0F232006AE61A /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37377A1E23A0F232006AE61A /* AccountViewController.swift */; };
+		37622A082520EB3900C4CF78 /* PersonPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37622A072520EB3900C4CF78 /* PersonPageViewController.swift */; };
+		37622A102520EDCB00C4CF78 /* SeparateViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37622A0F2520EDCA00C4CF78 /* SeparateViewController2.swift */; };
+		376C8C0725013A930081EAAF /* buddha-b2_アートボード 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 376C8BFA25013A930081EAAF /* buddha-b2_アートボード 1.png */; };
+		376C8C0925013A930081EAAF /* buddha-b5_アートボード 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 376C8BFC25013A930081EAAF /* buddha-b5_アートボード 1.png */; };
+		376C8C0A25013A930081EAAF /* buddha-b4_アートボード 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 376C8BFD25013A930081EAAF /* buddha-b4_アートボード 1.png */; };
+		377C64482512084900F361D0 /* buddha-bポポポ1_アートボード 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 377C64472512084900F361D0 /* buddha-bポポポ1_アートボード 1.png */; };
+		377C644E2512213E00F361D0 /* ChoiceCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C644D2512213E00F361D0 /* ChoiceCollectionViewController.swift */; };
+		377C64502512223700F361D0 /* Choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377C644F2512223700F361D0 /* Choice.swift */; };
+		3792FC912511180700D5385B /* buddha-bb_アートボード 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3792FC902511180700D5385B /* buddha-bb_アートボード 1.png */; };
 		3799208823853FF7005D1E0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799208723853FF7005D1E0F /* AppDelegate.swift */; };
 		3799208A23853FF7005D1E0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799208923853FF7005D1E0F /* SceneDelegate.swift */; };
-		3799208C23853FF7005D1E0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799208B23853FF7005D1E0F /* ViewController.swift */; };
+		3799208C23853FF7005D1E0F /* SeparateViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799208B23853FF7005D1E0F /* SeparateViewController1.swift */; };
 		3799208F23853FF7005D1E0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3799208D23853FF7005D1E0F /* Main.storyboard */; };
 		3799209123853FF8005D1E0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3799209023853FF8005D1E0F /* Assets.xcassets */; };
 		3799209423853FF8005D1E0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3799209223853FF8005D1E0F /* LaunchScreen.storyboard */; };
 		3799209F23853FF9005D1E0F /* BUDDHATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3799209E23853FF9005D1E0F /* BUDDHATests.swift */; };
 		379920AA23853FF9005D1E0F /* BUDDHAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379920A923853FF9005D1E0F /* BUDDHAUITests.swift */; };
+		379920BA2385482E005D1E0F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 379920B92385482E005D1E0F /* GoogleService-Info.plist */; };
+		37A2D91C252DC2EF00AB6339 /* tutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A2D91B252DC2EF00AB6339 /* tutorialViewController.swift */; };
+		37A2D924252DC47E00AB6339 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A2D923252DC47D00AB6339 /* SecondViewController.swift */; };
+		37A2D92C252DC49200AB6339 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A2D92B252DC49200AB6339 /* ThirdViewController.swift */; };
+		37A2D931252DC5FB00AB6339 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A2D930252DC5FB00AB6339 /* FirstViewController.swift */; };
+		37A65E6B2504E75F0048812C /* MyNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A65E6A2504E75F0048812C /* MyNavigationViewController.swift */; };
+		37ABD773250FC10700746EF5 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37ABD772250FC10700746EF5 /* PersonViewController.swift */; };
+		37BDFEAF25111B8400B5B0E7 /* buddha-bbbbbbアートボード 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 37BDFEAE25111B8400B5B0E7 /* buddha-bbbbbbアートボード 1.png */; };
+		37BDFEB125111B8D00B5B0E7 /* buddha-bbbbbb_アートボード 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 37BDFEB025111B8D00B5B0E7 /* buddha-bbbbbb_アートボード 1.png */; };
+		37D1955124FE25E5004E67B4 /* WayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D1955024FE25E5004E67B4 /* WayViewController.swift */; };
+		37D1955324FE2830004E67B4 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D1955224FE2830004E67B4 /* ChartsViewController.swift */; };
+		37E39E6523CC3EFE00EE0EC0 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E39E6423CC3EFE00EE0EC0 /* AddViewController.swift */; };
+		37EF602B24BF09EF0086E268 /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EF602A24BF09EF0086E268 /* ChoiceViewController.swift */; };
+		37EFECCA24F56DEB0099F153 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFECC924F56DEB0099F153 /* DetailViewController.swift */; };
+		37EFECCC24F667360099F153 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37EFECCB24F667360099F153 /* CollectionViewCell.swift */; };
+		B25F752A6EA51A3E42935C06 /* Pods_BUDDHATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFA39469043E30870F4427E /* Pods_BUDDHATests.framework */; };
+		D7041BFE611A519A43CE2D0B /* Pods_BUDDHAUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB0435666A0D677481B2538 /* Pods_BUDDHAUITests.framework */; };
+		DC029D6F20440EE13CA327E8 /* Pods_BUDDHA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C21B5EC298F0006C6820CD /* Pods_BUDDHA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +65,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00C21B5EC298F0006C6820CD /* Pods_BUDDHA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BUDDHA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B054A39FCC0D5BED763D3D5 /* Pods-BUDDHA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BUDDHA.release.xcconfig"; path = "Target Support Files/Pods-BUDDHA/Pods-BUDDHA.release.xcconfig"; sourceTree = "<group>"; };
+		37377A1923A0F00D006AE61A /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		37377A1C23A0F0BD006AE61A /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		37377A1E23A0F232006AE61A /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		37622A072520EB3900C4CF78 /* PersonPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonPageViewController.swift; sourceTree = "<group>"; };
+		37622A0F2520EDCA00C4CF78 /* SeparateViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparateViewController2.swift; sourceTree = "<group>"; };
+		376C8BFA25013A930081EAAF /* buddha-b2_アートボード 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buddha-b2_アートボード 1.png"; sourceTree = "<group>"; };
+		376C8BFC25013A930081EAAF /* buddha-b5_アートボード 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buddha-b5_アートボード 1.png"; sourceTree = "<group>"; };
+		376C8BFD25013A930081EAAF /* buddha-b4_アートボード 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buddha-b4_アートボード 1.png"; sourceTree = "<group>"; };
+		377C64472512084900F361D0 /* buddha-bポポポ1_アートボード 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buddha-bポポポ1_アートボード 1.png"; sourceTree = "<group>"; };
+		377C644D2512213E00F361D0 /* ChoiceCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChoiceCollectionViewController.swift; path = /Users/yoshito/Desktop/BUDDHA/BUDDHA/ChoiceCollectionViewController.swift; sourceTree = "<absolute>"; };
+		377C644F2512223700F361D0 /* Choice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choice.swift; sourceTree = "<group>"; };
+		3792FC902511180700D5385B /* buddha-bb_アートボード 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buddha-bb_アートボード 1.png"; sourceTree = "<group>"; };
 		3799208423853FF7005D1E0F /* BUDDHA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BUDDHA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3799208723853FF7005D1E0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3799208923853FF7005D1E0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3799208B23853FF7005D1E0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3799208B23853FF7005D1E0F /* SeparateViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparateViewController1.swift; sourceTree = "<group>"; };
 		3799208E23853FF7005D1E0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3799209023853FF8005D1E0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3799209323853FF8005D1E0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +93,28 @@
 		379920A523853FF9005D1E0F /* BUDDHAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BUDDHAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		379920A923853FF9005D1E0F /* BUDDHAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BUDDHAUITests.swift; sourceTree = "<group>"; };
 		379920AB23853FF9005D1E0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		379920B92385482E005D1E0F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		37A2D91B252DC2EF00AB6339 /* tutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorialViewController.swift; sourceTree = "<group>"; };
+		37A2D923252DC47D00AB6339 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		37A2D92B252DC49200AB6339 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		37A2D930252DC5FB00AB6339 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		37A65E6A2504E75F0048812C /* MyNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationViewController.swift; sourceTree = "<group>"; };
+		37ABD772250FC10700746EF5 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		37BDFEAE25111B8400B5B0E7 /* buddha-bbbbbbアートボード 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buddha-bbbbbbアートボード 1.png"; sourceTree = "<group>"; };
+		37BDFEB025111B8D00B5B0E7 /* buddha-bbbbbb_アートボード 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buddha-bbbbbb_アートボード 1.png"; sourceTree = "<group>"; };
+		37D1955024FE25E5004E67B4 /* WayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayViewController.swift; sourceTree = "<group>"; };
+		37D1955224FE2830004E67B4 /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
+		37E39E6423CC3EFE00EE0EC0 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		37EF602A24BF09EF0086E268 /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
+		37EFECC924F56DEB0099F153 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		37EFECCB24F667360099F153 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		3AA2EE20F669CE1BD44378E9 /* Pods-BUDDHAUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BUDDHAUITests.debug.xcconfig"; path = "Target Support Files/Pods-BUDDHAUITests/Pods-BUDDHAUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		63A4C5A988007487D58591C7 /* Pods-BUDDHAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BUDDHAUITests.release.xcconfig"; path = "Target Support Files/Pods-BUDDHAUITests/Pods-BUDDHAUITests.release.xcconfig"; sourceTree = "<group>"; };
+		76385F1217A931EE69785E63 /* Pods-BUDDHATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BUDDHATests.debug.xcconfig"; path = "Target Support Files/Pods-BUDDHATests/Pods-BUDDHATests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CCF6B97FACA710222686E2A /* Pods-BUDDHATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BUDDHATests.release.xcconfig"; path = "Target Support Files/Pods-BUDDHATests/Pods-BUDDHATests.release.xcconfig"; sourceTree = "<group>"; };
+		9BB0435666A0D677481B2538 /* Pods_BUDDHAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BUDDHAUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3F1EAF506CF350EE687785 /* Pods-BUDDHA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BUDDHA.debug.xcconfig"; path = "Target Support Files/Pods-BUDDHA/Pods-BUDDHA.debug.xcconfig"; sourceTree = "<group>"; };
+		EEFA39469043E30870F4427E /* Pods_BUDDHATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BUDDHATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC029D6F20440EE13CA327E8 /* Pods_BUDDHA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B25F752A6EA51A3E42935C06 /* Pods_BUDDHATests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +138,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7041BFE611A519A43CE2D0B /* Pods_BUDDHAUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		376C8BF225013A930081EAAF /* bud */ = {
+			isa = PBXGroup;
+			children = (
+				377C64472512084900F361D0 /* buddha-bポポポ1_アートボード 1.png */,
+				37BDFEAE25111B8400B5B0E7 /* buddha-bbbbbbアートボード 1.png */,
+				37BDFEB025111B8D00B5B0E7 /* buddha-bbbbbb_アートボード 1.png */,
+				376C8BFA25013A930081EAAF /* buddha-b2_アートボード 1.png */,
+				376C8BFC25013A930081EAAF /* buddha-b5_アートボード 1.png */,
+				3792FC902511180700D5385B /* buddha-bb_アートボード 1.png */,
+				376C8BFD25013A930081EAAF /* buddha-b4_アートボード 1.png */,
+			);
+			path = bud;
+			sourceTree = "<group>";
+		};
 		3799207B23853FF7005D1E0F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +166,8 @@
 				3799209D23853FF9005D1E0F /* BUDDHATests */,
 				379920A823853FF9005D1E0F /* BUDDHAUITests */,
 				3799208523853FF7005D1E0F /* Products */,
+				8F5464DC98439DA895BDD19E /* Pods */,
+				3E87FF1441EB0AC1EC1EB82C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +184,34 @@
 		3799208623853FF7005D1E0F /* BUDDHA */ = {
 			isa = PBXGroup;
 			children = (
+				37377A1923A0F00D006AE61A /* Post.swift */,
+				37377A1C23A0F0BD006AE61A /* TimelineViewController.swift */,
+				37E39E6423CC3EFE00EE0EC0 /* AddViewController.swift */,
+				37D1955024FE25E5004E67B4 /* WayViewController.swift */,
+				37ABD772250FC10700746EF5 /* PersonViewController.swift */,
+				37622A072520EB3900C4CF78 /* PersonPageViewController.swift */,
+				37D1955224FE2830004E67B4 /* ChartsViewController.swift */,
+				37377A1E23A0F232006AE61A /* AccountViewController.swift */,
+				37EFECCB24F667360099F153 /* CollectionViewCell.swift */,
+				37EF602A24BF09EF0086E268 /* ChoiceViewController.swift */,
+				377C644D2512213E00F361D0 /* ChoiceCollectionViewController.swift */,
+				377C644F2512223700F361D0 /* Choice.swift */,
 				3799208723853FF7005D1E0F /* AppDelegate.swift */,
 				3799208923853FF7005D1E0F /* SceneDelegate.swift */,
-				3799208B23853FF7005D1E0F /* ViewController.swift */,
+				3799208B23853FF7005D1E0F /* SeparateViewController1.swift */,
+				37622A0F2520EDCA00C4CF78 /* SeparateViewController2.swift */,
+				37EFECC924F56DEB0099F153 /* DetailViewController.swift */,
+				37A65E6A2504E75F0048812C /* MyNavigationViewController.swift */,
+				37A2D91B252DC2EF00AB6339 /* tutorialViewController.swift */,
+				37A2D930252DC5FB00AB6339 /* FirstViewController.swift */,
+				37A2D923252DC47D00AB6339 /* SecondViewController.swift */,
+				37A2D92B252DC49200AB6339 /* ThirdViewController.swift */,
 				3799208D23853FF7005D1E0F /* Main.storyboard */,
+				376C8BF225013A930081EAAF /* bud */,
 				3799209023853FF8005D1E0F /* Assets.xcassets */,
 				3799209223853FF8005D1E0F /* LaunchScreen.storyboard */,
 				3799209523853FF8005D1E0F /* Info.plist */,
+				379920B92385482E005D1E0F /* GoogleService-Info.plist */,
 			);
 			path = BUDDHA;
 			sourceTree = "<group>";
@@ -128,6 +234,29 @@
 			path = BUDDHAUITests;
 			sourceTree = "<group>";
 		};
+		3E87FF1441EB0AC1EC1EB82C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00C21B5EC298F0006C6820CD /* Pods_BUDDHA.framework */,
+				EEFA39469043E30870F4427E /* Pods_BUDDHATests.framework */,
+				9BB0435666A0D677481B2538 /* Pods_BUDDHAUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F5464DC98439DA895BDD19E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE3F1EAF506CF350EE687785 /* Pods-BUDDHA.debug.xcconfig */,
+				0B054A39FCC0D5BED763D3D5 /* Pods-BUDDHA.release.xcconfig */,
+				76385F1217A931EE69785E63 /* Pods-BUDDHATests.debug.xcconfig */,
+				8CCF6B97FACA710222686E2A /* Pods-BUDDHATests.release.xcconfig */,
+				3AA2EE20F669CE1BD44378E9 /* Pods-BUDDHAUITests.debug.xcconfig */,
+				63A4C5A988007487D58591C7 /* Pods-BUDDHAUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +264,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 379920AE23853FF9005D1E0F /* Build configuration list for PBXNativeTarget "BUDDHA" */;
 			buildPhases = (
+				F3AEA924556135ACA3991D89 /* [CP] Check Pods Manifest.lock */,
 				3799208023853FF7005D1E0F /* Sources */,
 				3799208123853FF7005D1E0F /* Frameworks */,
 				3799208223853FF7005D1E0F /* Resources */,
+				DB0F3A473550A61A8806FAAA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +283,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 379920B123853FF9005D1E0F /* Build configuration list for PBXNativeTarget "BUDDHATests" */;
 			buildPhases = (
+				CD95E63BEE4A42C660F46E36 /* [CP] Check Pods Manifest.lock */,
 				3799209623853FF9005D1E0F /* Sources */,
 				3799209723853FF9005D1E0F /* Frameworks */,
 				3799209823853FF9005D1E0F /* Resources */,
@@ -170,6 +302,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 379920B423853FF9005D1E0F /* Build configuration list for PBXNativeTarget "BUDDHAUITests" */;
 			buildPhases = (
+				B3D12B2DC03488965B4EBEED /* [CP] Check Pods Manifest.lock */,
 				379920A123853FF9005D1E0F /* Sources */,
 				379920A223853FF9005D1E0F /* Frameworks */,
 				379920A323853FF9005D1E0F /* Resources */,
@@ -232,9 +365,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377C64482512084900F361D0 /* buddha-bポポポ1_アートボード 1.png in Resources */,
+				376C8C0A25013A930081EAAF /* buddha-b4_アートボード 1.png in Resources */,
 				3799209423853FF8005D1E0F /* LaunchScreen.storyboard in Resources */,
+				379920BA2385482E005D1E0F /* GoogleService-Info.plist in Resources */,
+				37BDFEB125111B8D00B5B0E7 /* buddha-bbbbbb_アートボード 1.png in Resources */,
+				376C8C0725013A930081EAAF /* buddha-b2_アートボード 1.png in Resources */,
+				376C8C0925013A930081EAAF /* buddha-b5_アートボード 1.png in Resources */,
 				3799209123853FF8005D1E0F /* Assets.xcassets in Resources */,
 				3799208F23853FF7005D1E0F /* Main.storyboard in Resources */,
+				3792FC912511180700D5385B /* buddha-bb_アートボード 1.png in Resources */,
+				37BDFEAF25111B8400B5B0E7 /* buddha-bbbbbbアートボード 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +395,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B3D12B2DC03488965B4EBEED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BUDDHAUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD95E63BEE4A42C660F46E36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BUDDHATests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB0F3A473550A61A8806FAAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BUDDHA/Pods-BUDDHA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BUDDHA/Pods-BUDDHA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BUDDHA/Pods-BUDDHA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3AEA924556135ACA3991D89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BUDDHA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3799208023853FF7005D1E0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3799208C23853FF7005D1E0F /* ViewController.swift in Sources */,
+				37D1955324FE2830004E67B4 /* ChartsViewController.swift in Sources */,
+				37EFECCA24F56DEB0099F153 /* DetailViewController.swift in Sources */,
+				37D1955124FE25E5004E67B4 /* WayViewController.swift in Sources */,
+				3799208C23853FF7005D1E0F /* SeparateViewController1.swift in Sources */,
+				377C644E2512213E00F361D0 /* ChoiceCollectionViewController.swift in Sources */,
+				37EFECCC24F667360099F153 /* CollectionViewCell.swift in Sources */,
+				37E39E6523CC3EFE00EE0EC0 /* AddViewController.swift in Sources */,
+				37A2D924252DC47E00AB6339 /* SecondViewController.swift in Sources */,
+				37A2D91C252DC2EF00AB6339 /* tutorialViewController.swift in Sources */,
+				37377A1F23A0F232006AE61A /* AccountViewController.swift in Sources */,
+				37622A082520EB3900C4CF78 /* PersonPageViewController.swift in Sources */,
+				37A65E6B2504E75F0048812C /* MyNavigationViewController.swift in Sources */,
+				37A2D92C252DC49200AB6339 /* ThirdViewController.swift in Sources */,
+				37377A1B23A0F00E006AE61A /* Post.swift in Sources */,
+				37ABD773250FC10700746EF5 /* PersonViewController.swift in Sources */,
+				377C64502512223700F361D0 /* Choice.swift in Sources */,
 				3799208823853FF7005D1E0F /* AppDelegate.swift in Sources */,
+				37EF602B24BF09EF0086E268 /* ChoiceViewController.swift in Sources */,
+				37622A102520EDCB00C4CF78 /* SeparateViewController2.swift in Sources */,
 				3799208A23853FF7005D1E0F /* SceneDelegate.swift in Sources */,
+				37377A1D23A0F0BD006AE61A /* TimelineViewController.swift in Sources */,
+				37A2D931252DC5FB00AB6339 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,9 +678,11 @@
 		};
 		379920AF23853FF9005D1E0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE3F1EAF506CF350EE687785 /* Pods-BUDDHA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 657539RL4M;
 				INFOPLIST_FILE = BUDDHA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +697,11 @@
 		};
 		379920B023853FF9005D1E0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B054A39FCC0D5BED763D3D5 /* Pods-BUDDHA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 657539RL4M;
 				INFOPLIST_FILE = BUDDHA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,6 +716,7 @@
 		};
 		379920B223853FF9005D1E0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76385F1217A931EE69785E63 /* Pods-BUDDHATests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +738,7 @@
 		};
 		379920B323853FF9005D1E0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CCF6B97FACA710222686E2A /* Pods-BUDDHATests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +760,7 @@
 		};
 		379920B523853FF9005D1E0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AA2EE20F669CE1BD44378E9 /* Pods-BUDDHAUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +780,7 @@
 		};
 		379920B623853FF9005D1E0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63A4C5A988007487D58591C7 /* Pods-BUDDHAUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
