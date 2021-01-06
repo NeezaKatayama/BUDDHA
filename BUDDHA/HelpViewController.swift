@@ -1,22 +1,23 @@
 //
-//  ThirdViewController.swift
-//  BUDDHA
+//  HelpViewController.swift
+//  片山義仁_BUDDHA
 //
-//  Created by 片山義仁 on 2020/10/07.
+//  Created by 片山義仁 on 2020/10/09.
 //  Copyright © 2020 Neeza. All rights reserved.
 //
 
 import UIKit
 
-class ThirdViewController: UIViewController {
+class HelpViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
     }
-    //huyou
-
+    
+    @IBOutlet var imageView: UIImageView!
     /*
     // MARK: - Navigation
 

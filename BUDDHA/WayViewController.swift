@@ -13,6 +13,7 @@ import Firebase
 
 class WayViewController: UIViewController {
     @IBOutlet var pieChartsView: PieChartView!
+    @IBOutlet var helpButton: UIButton!
     var feelingNumberOfHappy: Int = 0
     var feelingNumberOfLove: Int = 0
     var feelingNumberOfAngry: Int = 0
@@ -34,7 +35,7 @@ class WayViewController: UIViewController {
         super.viewDidLoad()
         auth = Auth.auth()
         ref = Database.database().reference()//リアル
-        database = Firestore.firestore()//データ依存
+        database = Firestore.firestore()//変更完了
         
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
         // Do any additional setup after loading the view.
@@ -64,26 +65,14 @@ class WayViewController: UIViewController {
             
          
           
-            
-            
-            
-            self.database.collection("posts").getDocuments { (snapshot, error) in//データ依存
+            self.ref.child("posts").observe(.value) { snapshot in //データ解消済、大元
                 
-                if error == nil, let snapshot = snapshot {
                     self.postArray = []
-                    for document in snapshot.documents {
-                        let data = document.data()
-                        let post = Post(data: data)
-                        let timeStamp: Timestamp
-                        let date: Date = post.createdAt!.dateValue()
-                        let now : Date = Date()
-                                                
-                                                
-                        let elapsedDays = Calendar.current.dateComponents([.day], from: date, to: now).day
-                                              
-                                                
-                        
-                       
+                for child in snapshot.children {
+                    let data = (child as! DataSnapshot).value
+                   
+                    let post = Post(data: data as! [String : Any])
+
                      
                         
                         switch post.feelingType.rawValue  {
@@ -113,7 +102,10 @@ class WayViewController: UIViewController {
                     
                             
                         }
-                }
+            }//) { (error) in
+                //print(error.localizedDescription)
+                
+            //}
                 
                 
              
@@ -167,7 +159,7 @@ class WayViewController: UIViewController {
                     self.pieChartsView.usePercentValuesEnabled = true
                     
                     
-                 self.view.addSubview(self.pieChartsView)
+                 
                     
                     
                     
@@ -178,7 +170,7 @@ class WayViewController: UIViewController {
         }
             
             
-        }
+        
 
     }
     

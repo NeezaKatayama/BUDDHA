@@ -66,7 +66,7 @@ class TimelineViewController: UIViewController, UICollectionViewDataSource, UICo
       
 
         ref = Database.database().reference()//リアル
-        database = Firestore.firestore()//データ構造依存
+        database = Firestore.firestore()//変更完了
         collectionView.dataSource = self
         collectionView.delegate = self
         collectionView.collectionViewLayout = layout
@@ -89,9 +89,10 @@ class TimelineViewController: UIViewController, UICollectionViewDataSource, UICo
         
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        let postsRef = self.database.collection("posts")//失敗
+        let postsRef = self.database.collection("posts")
         
-        postsRef.order(by: "createdAt", descending: true).getDocuments { (snapshot, error) in //データ構造依存箇所
+        postsRef.order(by: "createdAt", descending: true).getDocuments { (snapshot, error) in //データ構造、並び替えもこれやる
+            
            
             if error == nil, let snapshot = snapshot {
 

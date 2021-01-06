@@ -83,17 +83,18 @@ class AddViewController: UIViewController, UIImagePickerControllerDelegate, UINa
     
     @IBAction func postContent() {
         ref = Database.database().reference()
+        guard let key = ref.child("posts").childByAutoId().key else { return }
         let content = contentTextView.text!
-        let saveDocument = Firestore.firestore().collection("posts").document()//データ構造依存箇所
-        //let saveDocument = self.ref.child("posts")
+        //let saveDocument = Firestore.firestore().collection("posts").document()//変更完了
+        let saveDocument = self.ref.child("posts").child(key)
         if  image != nil {
             
            
             let data = image.jpegData(compressionQuality: 0.3)!
             let storage = Storage.storage()
             let storageRef = storage.reference()
-            let imageName = saveDocument.documentID + ".jpeg"
-            //let imageName = saveDocument.
+            //let imageName = saveDocument.documentID + ".jpeg"
+            let imageName = key + ".jpeg"
             var imagesRef = storageRef.child(imageName)
             _ = imagesRef.putData(data, metadata: nil) { (metadata, error) in //返り値を使ってない
                 guard let metadata = metadata else {
@@ -105,16 +106,15 @@ class AddViewController: UIViewController, UIImagePickerControllerDelegate, UINa
                         return
                     }
                     
-              saveDocument.setData([ //データ構造箇所
+                    saveDocument.setValue([
                         "content": content,
-                        "postID": saveDocument.documentID,
-                        "createdAt": FieldValue.serverTimestamp(),
-                        "updatedAt": FieldValue.serverTimestamp(),
+                        "postID": key,
+                        "createdAt": ServerValue.timestamp(),
+                        "updatedAt": ServerValue.timestamp(),
                         "ImageURL": downloadURL.absoluteString,
-                        "FeelingType": self.feelingNumber, //rawvalueはあくまでただの数字。sendertagと一致すれば宣言する必要はない
+                        "FeelingType": self.feelingNumber,
                         "userID":  self.auth.currentUser?.uid
-                    ]) { error in
-                        if error == nil {
+                    ]) { (error:Error?, ref:DatabaseReference) in                        if error == nil {
                            self.navigationController?.popToRootViewController(animated: true)
                           
                         

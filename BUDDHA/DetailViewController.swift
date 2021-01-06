@@ -80,7 +80,7 @@ class DetailViewController: UIViewController {
             } else {
                 print("Document successfully removed!")
             }
-        }
+        }//データ依存　削除
             self.navigationController?.popViewController(animated: true)
         })
         // キャンセルボタンの処理

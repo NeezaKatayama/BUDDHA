@@ -24,7 +24,7 @@
         <!--First View Controller-->
         <scene sceneID="3Kc-Kt-R3f">
             <objects>
-                <viewController storyboardIdentifier="FirstView" id="HiT-mk-San" customClass="FirstViewController" customModule="BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FirstView" id="HiT-mk-San" customClass="FirstViewController" customModule="片山義仁_BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vN4-MG-oHw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -39,7 +39,7 @@
         <!--Second View Controller-->
         <scene sceneID="0x6-fb-2rD">
             <objects>
-                <viewController storyboardIdentifier="SecondView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="B7Y-Lk-GSp" customClass="SecondViewController" customModule="BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="B7Y-Lk-GSp" customClass="SecondViewController" customModule="片山義仁_BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yRR-vc-kpk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -54,7 +54,7 @@
         <!--Third View Controller-->
         <scene sceneID="4fC-ln-4RA">
             <objects>
-                <viewController storyboardIdentifier="ThirdView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kxL-JM-vbk" customClass="ThirdViewController" customModule="BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ThirdView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kxL-JM-vbk" customClass="ThirdViewController" customModule="片山義仁_BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="coE-tx-Tw3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -69,7 +69,7 @@
         <!--Account View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="AccountViewController" customModule="BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="AccountViewController" customModule="片山義仁_BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -141,7 +141,7 @@
         <!--Add View Controller-->
         <scene sceneID="FA2-yH-jSF">
             <objects>
-                <viewController id="2zE-Mf-Er1" customClass="AddViewController" customModule="BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="2zE-Mf-Er1" customClass="AddViewController" customModule="片山義仁_BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gaz-v6-1nA">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -228,7 +228,7 @@
         <!--Choice Collection View Controller-->
         <scene sceneID="4U7-SH-ufm">
             <objects>
-                <collectionViewController id="1Ca-v2-RxK" customClass="ChoiceCollectionViewController" customModule="BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="1Ca-v2-RxK" customClass="ChoiceCollectionViewController" customModule="片山義仁_BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="uEX-zk-b3E">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -263,7 +263,7 @@
         <!--Choice View Controller-->
         <scene sceneID="1ov-22-9hN">
             <objects>
-                <viewController id="Znb-nw-D1N" customClass="ChoiceViewController" customModule="BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Znb-nw-D1N" customClass="ChoiceViewController" customModule="片山義仁_BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="flS-80-za6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -407,7 +407,7 @@
         <!--Timeline View Controller-->
         <scene sceneID="gEv-1j-zkM">
             <objects>
-                <viewController storyboardIdentifier="TimelineViewController2" id="tfm-dG-fVe" customClass="TimelineViewController" customModule="BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TimelineViewController2" id="tfm-dG-fVe" customClass="TimelineViewController" customModule="片山義仁_BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GKl-Rr-amD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -422,7 +422,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="sZk-Wj-Mm4" customClass="CollectionViewCell" customModule="BUDDHA" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="sZk-Wj-Mm4" customClass="CollectionViewCell" customModule="片山義仁_BUDDHA" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="H2U-dq-hoY">
@@ -465,7 +465,7 @@
         <!--Detail View Controller-->
         <scene sceneID="nLt-LX-gAQ">
             <objects>
-                <viewController storyboardIdentifier="DetailViewController2" id="T8R-mU-Mpi" customClass="DetailViewController" customModule="BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailViewController2" id="T8R-mU-Mpi" customClass="DetailViewController" customModule="片山義仁_BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DWh-Zz-mdc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -474,7 +474,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aBD-j3-wUA">
-                                        <rect key="frame" x="8" y="156" width="359" height="347"/>
+                                        <rect key="frame" x="8" y="144" width="359" height="359"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UCR-YO-nQP">
                                         <rect key="frame" x="8" y="511" width="359" height="140"/>
@@ -489,11 +489,11 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vcO-na-qaY">
-                                        <rect key="frame" x="306" y="96" width="61" height="52"/>
+                                        <rect key="frame" x="306" y="96" width="61" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="61" id="39y-mC-irx"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <state key="normal" title="...">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -598,7 +598,7 @@
         <!--Detail View Controller-->
         <scene sceneID="QyC-78-GNs">
             <objects>
-                <viewController storyboardIdentifier="DetailViewController1" id="XoQ-Jn-KwZ" customClass="DetailViewController" customModule="BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailViewController1" id="XoQ-Jn-KwZ" customClass="DetailViewController" customModule="片山義仁_BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6eY-GO-Q6W">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -702,7 +702,7 @@
         <!--Separate View Controller2-->
         <scene sceneID="MfU-2Y-GZP">
             <objects>
-                <viewController storyboardIdentifier="SeparateViewController2" id="VI7-dc-jQ6" customClass="SeparateViewController2" customModule="BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SeparateViewController2" id="VI7-dc-jQ6" customClass="SeparateViewController2" customModule="片山義仁_BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iyN-LG-Nje">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -838,7 +838,7 @@
         <!--Way View Controller-->
         <scene sceneID="sFp-eW-kBU">
             <objects>
-                <viewController id="7Dh-hz-jmq" customClass="WayViewController" customModule="BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7Dh-hz-jmq" customClass="WayViewController" customModule="片山義仁_BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iqL-eF-dzw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -846,14 +846,6 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bre-30-whu">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ch-hw-iOj" customClass="PieChartView" customModule="Charts">
-                                        <rect key="frame" x="37.666666666666657" y="256" width="300" height="300"/>
-                                        <color key="backgroundColor" name="customColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="300" id="6DP-Ud-psb"/>
-                                            <constraint firstAttribute="width" constant="300" id="YNZ-yh-Woh"/>
-                                        </constraints>
-                                    </view>
                                     <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4rU-dk-SkU">
                                         <rect key="frame" x="267" y="695" width="100" height="100"/>
                                         <constraints>
@@ -888,15 +880,36 @@
                                             <action selector="toChoiceViewControllertapped" destination="7Dh-hz-jmq" eventType="touchUpInside" id="l5e-JL-DQ0"/>
                                         </connections>
                                     </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ch-hw-iOj" customClass="PieChartView" customModule="Charts">
+                                        <rect key="frame" x="8" y="186.66666666666663" width="359" height="359"/>
+                                        <color key="backgroundColor" name="customColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="3ch-hw-iOj" secondAttribute="height" multiplier="1:1" id="gA4-9f-LYX"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lC8-vO-CEi">
+                                        <rect key="frame" x="332" y="96" width="35" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="35" id="AWF-tb-2YH"/>
+                                            <constraint firstAttribute="height" constant="35" id="Ish-bk-N36"/>
+                                        </constraints>
+                                        <state key="normal" image="hatena_アートボード 1"/>
+                                        <connections>
+                                            <segue destination="6LZ-Ck-zHt" kind="show" id="2I5-UX-7dI"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" name="customColor"/>
                                 <constraints>
                                     <constraint firstItem="EDf-PY-03W" firstAttribute="centerX" secondItem="Bre-30-whu" secondAttribute="centerX" id="1tC-e3-PN8"/>
-                                    <constraint firstItem="3ch-hw-iOj" firstAttribute="centerX" secondItem="Bre-30-whu" secondAttribute="centerX" id="8gs-ej-zmk"/>
-                                    <constraint firstItem="3ch-hw-iOj" firstAttribute="centerY" secondItem="Bre-30-whu" secondAttribute="centerY" id="Bg0-8H-bhi"/>
+                                    <constraint firstAttribute="trailing" secondItem="3ch-hw-iOj" secondAttribute="trailing" constant="8" id="2Yl-ds-ZuV"/>
+                                    <constraint firstItem="3ch-hw-iOj" firstAttribute="leading" secondItem="Bre-30-whu" secondAttribute="leading" constant="8" id="5sV-5h-9um"/>
+                                    <constraint firstItem="lC8-vO-CEi" firstAttribute="top" secondItem="Bre-30-whu" secondAttribute="top" constant="96" id="Wva-Iw-qul"/>
                                     <constraint firstAttribute="bottom" secondItem="jpr-1R-BrA" secondAttribute="bottom" constant="17" id="bK2-KJ-7oZ"/>
                                     <constraint firstItem="jpr-1R-BrA" firstAttribute="leading" secondItem="Bre-30-whu" secondAttribute="leading" constant="8" id="cR7-Y6-JsM"/>
+                                    <constraint firstItem="3ch-hw-iOj" firstAttribute="centerY" secondItem="Bre-30-whu" secondAttribute="centerY" constant="-40" id="ccN-ht-vaZ"/>
                                     <constraint firstAttribute="bottom" secondItem="4rU-dk-SkU" secondAttribute="bottom" constant="17" id="cko-cP-dJ4"/>
+                                    <constraint firstAttribute="trailing" secondItem="lC8-vO-CEi" secondAttribute="trailing" constant="8" id="iSN-uZ-Nlf"/>
                                     <constraint firstAttribute="trailing" secondItem="4rU-dk-SkU" secondAttribute="trailing" constant="8" id="mbo-6l-nuw"/>
                                     <constraint firstAttribute="bottom" secondItem="EDf-PY-03W" secondAttribute="bottom" constant="54" id="zE4-n2-Nhe"/>
                                 </constraints>
@@ -930,10 +943,41 @@
             </objects>
             <point key="canvasLocation" x="2852" y="0.0"/>
         </scene>
+        <!--Help View Controller-->
+        <scene sceneID="7f2-GF-hJB">
+            <objects>
+                <viewController id="6LZ-Ck-zHt" customClass="HelpViewController" customModule="片山義仁_BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LW5-Zl-W4K">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="help_アートボード 1" translatesAutoresizingMaskIntoConstraints="NO" id="lCI-Dh-cGc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <color key="backgroundColor" name="customColor"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="U4v-VI-B2G"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lCI-Dh-cGc" firstAttribute="top" secondItem="LW5-Zl-W4K" secondAttribute="top" id="AD8-oK-rsV"/>
+                            <constraint firstAttribute="bottom" secondItem="lCI-Dh-cGc" secondAttribute="bottom" id="FjX-Qr-jfS"/>
+                            <constraint firstItem="lCI-Dh-cGc" firstAttribute="leading" secondItem="U4v-VI-B2G" secondAttribute="leading" id="RcP-Eg-uuO"/>
+                            <constraint firstItem="lCI-Dh-cGc" firstAttribute="trailing" secondItem="U4v-VI-B2G" secondAttribute="trailing" id="bq3-Mg-4sH"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="gLF-mK-S5H"/>
+                    <connections>
+                        <outlet property="imageView" destination="lCI-Dh-cGc" id="Gkm-8w-Qxx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h0l-tj-Xdr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3893.5999999999999" y="-149.26108374384236"/>
+        </scene>
         <!--Charts View Controller-->
         <scene sceneID="uxX-cq-I19">
             <objects>
-                <viewController id="6n6-z9-3QB" customClass="ChartsViewController" customModule="BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6n6-z9-3QB" customClass="ChartsViewController" customModule="片山義仁_BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yBe-c5-GXh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -955,7 +999,7 @@
                                         </segments>
                                         <color key="tintColor" name="customColor"/>
                                         <connections>
-                                            <action selector="actionSegmentedControl:" destination="6n6-z9-3QB" eventType="touchUpInside" id="E6z-OY-Ygo"/>
+                                            <action selector="actionSegmentedControl:" destination="6n6-z9-3QB" eventType="valueChanged" id="Tkg-6e-3l3"/>
                                         </connections>
                                     </segmentedControl>
                                 </subviews>
@@ -1006,7 +1050,7 @@
         <!--Person Page View Controller-->
         <scene sceneID="XTX-IJ-cnQ">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="qLd-Mc-Van" customClass="PersonPageViewController" customModule="BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="qLd-Mc-Van" customClass="PersonPageViewController" customModule="片山義仁_BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="usR-tQ-Y2c"/>
                     <connections>
                         <segue destination="VI7-dc-jQ6" kind="show" id="xqP-oC-5tf"/>
@@ -1020,7 +1064,7 @@
         <!--My Navigation View Controller-->
         <scene sceneID="0ZM-Zv-j0P">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="S2h-vr-7Wb" customClass="MyNavigationViewController" customModule="BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="S2h-vr-7Wb" customClass="MyNavigationViewController" customModule="片山義仁_BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="cOa-47-Jja"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xH0-lp-VTC">
@@ -1039,7 +1083,7 @@
         <!--Separate View Controller1-->
         <scene sceneID="MPT-hL-RpF">
             <objects>
-                <viewController storyboardIdentifier="SeparateViewController1" id="Zyb-nW-GdT" customClass="SeparateViewController1" customModule="BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SeparateViewController1" id="Zyb-nW-GdT" customClass="SeparateViewController1" customModule="片山義仁_BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="I7B-ZJ-2Uy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1179,7 +1223,7 @@
         <!--Timeline View Controller-->
         <scene sceneID="pxe-CR-hKb">
             <objects>
-                <viewController storyboardIdentifier="TimelineViewController1" id="1wm-UW-J6f" customClass="TimelineViewController" customModule="BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TimelineViewController1" id="1wm-UW-J6f" customClass="TimelineViewController" customModule="片山義仁_BUDDHA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RxX-qg-uud">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1194,7 +1238,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="ZTz-N9-7uu" customClass="CollectionViewCell" customModule="BUDDHA" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="ZTz-N9-7uu" customClass="CollectionViewCell" customModule="片山義仁_BUDDHA" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="TLA-vn-oWf">
@@ -1243,6 +1287,8 @@
         <image name="buddha-bbbbbb_アートボード 1" width="834" height="834"/>
         <image name="buddha-bbbbbbアートボード 1" width="834" height="834"/>
         <image name="buddha-bポポポ1_アートボード 1" width="834" height="834"/>
+        <image name="hatena_アートボード 1" width="334" height="334"/>
+        <image name="help_アートボード 1" width="3125" height="5559"/>
         <namedColor name="accent">
             <color red="0.7720000147819519" green="1" blue="0.37999999523162842" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
